@@ -11,7 +11,7 @@ import {StaticQuery, graphql, Link} from "gatsby"
 
 import Header from "./header"
 import "../../static/styles/main.scss"
-import logo from "../../static/images/logo.svg"
+import logo from "../../static/images/wecancodeitnewlogo.png"
 import iconTwitter from "../../static/images/icon-twitter.svg"
 import iconLinkedin from "../../static/images/icon-linkedin.svg"
 import iconGitHub from "../../static/images/icon-github.svg"
@@ -36,39 +36,33 @@ const Layout = ({children}) => (
                         <div className={"col-5"}>
                             <div className={"widget__item"}>
                                 <div className={"logo"}>
-                                    <Link to="/" title={"HiStaff"}>
+                                    <Link to="/" title={"About"}>
                                         <img alt={"Logo"} src={logo}/>
                                     </Link>
                                 </div>
 
                                 <div className={"about"}>
-                                    <p>A software that was created with the goal of solving the problems of Human Resources in small and medium-sized businesses.</p>
+                                    <p>We Can Code IT, named Course Report’s Best Bootcamp 4 years in a row,  sets the standard for modern, world-class accelerated software development education with a focus on your new career in tech!</p>
                                 </div>
                             </div>
                         </div>
 
                         <div className={"col-2"}>
                             <div className={"widget__item"}>
-                                <ul className={"links"}>
-                                    <h4>HiStaff</h4>
-                                    <ul>
-                                        <li><Link to="/integrations/slack" title={"Integrations"}>Integrations</Link></li>
-                                        <li><Link to="/about" title={"About Us"}>About</Link></li>
-                                        <li><a href={"https://histaff.io/blog"}>Blog</a></li>
-                                        <li><a className={"links__special"} href={"https://feedback.histaff.io/"} target={"_blank"} title={"We look forward to receiving your great feedback"}>Feedback</a></li>
-                                    </ul>
-                                </ul>
+                                <div className={"about"}>
+                                    <h4>Our Mission</h4>
+                                    <p>Championing social equity through technology education by providing industry-driven software development education.</p>
+                                </div>
                             </div>
                         </div>
 
                         <div className={"col-2"}>
                             <div className={"widget__item"}>
-                                <div className={"links"}>
-                                    <h4>Support</h4>
+                                <div className={"about"}>
+                                    <h4>Our Vision</h4>
+                                    <p>Graduate 10,000 tech champions by 2030 with a minimum of 70% underrepresented in the tech industry.</p>
                                     <ul>
-                                        <li><Link to="/contact" title={"Contact Us"}>Contact</Link></li>
-                                        <li><Link to="/privacy" title={"Privacy Policy"}>Privacy</Link></li>
-                                        <li><Link to="/terms" title={"Terms Of Use"}>Terms Of Use</Link></li>
+                                        <li><Link to="/contact" title={"See Our Progress"}>See Our Progress</Link></li>
                                     </ul>
                                 </div>
                             </div>
