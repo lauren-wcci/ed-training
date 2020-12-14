@@ -68,8 +68,6 @@ const Layout = ({children}) => (
                                 <div className={"social"}>
                                     <a href="https://twitter.com/wecandodeit" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
                                     <a href="https://www.linkedin.com/company/wecancodeit/" target={"_blank"} title={"LinkedIn"}><img alt={"LinkedIn"} src={iconLinkedin}/></a>
-                                    <a href="https://www.facebook.com/wecancodeit/" target={"_blank"} title={"Facebook"}><img alt={"Facebook"} src={iconFacebook}/></a>
-
                                 </div>
                             </div>
                         </div>
