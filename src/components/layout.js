@@ -36,12 +36,7 @@ const Layout = ({children}) => (
                         <div className={"col-5"}>
                             <div className={"widget__item"}>
                                 <div className={"about"}>
-                                    <Link to="/" title={"About"}>
-                                        <img alt={"Logo"} src={logo}/>
-                                    </Link>
-                                </div>
-
-                                <div className={"about"}>
+                                    <h4>Our Company</h4>
                                     <p>We Can Code IT, named Course Report’s Best Bootcamp 4 years in a row,  sets the standard for modern, world-class accelerated software development education with a focus on your new career in tech!</p>
                                 </div>
                             </div>
@@ -71,10 +66,10 @@ const Layout = ({children}) => (
                         <div className={"col-3"}>
                             <div className={"widget__item"}>
                                 <div className={"social"}>
-                                    <a href="https://twitter.com/histaffio" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
-                                    <a href="https://www.linkedin.com/company/histaff/" target={"_blank"} title={"LinkedIn"}><img alt={"LinkedIn"} src={iconLinkedin}/></a>
-                                    <a href="https://github.com/histaff" target={"_blank"} title={"GitHub"}><img alt={"GitHub"} src={iconGitHub}/></a>
-                                    <a href="https://www.instagram.com/histaff.io/" target={"_blank"} title={"Instagram"}><img alt={"Instagram"} src={iconInstagram}/></a>
+                                    <a href="https://twitter.com/wecandodeit" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
+                                    <a href="https://www.linkedin.com/company/wecancodeit/" target={"_blank"} title={"LinkedIn"}><img alt={"LinkedIn"} src={iconLinkedin}/></a>
+                                    <a href="https://www.facebook.com/wecancodeit/" target={"_blank"} title={"Facebook"}><img alt={"Facebook"} src={iconFacebo2 ok}/></a>
+
                                 </div>
                             </div>
                         </div>
