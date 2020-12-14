@@ -35,7 +35,7 @@ const Layout = ({children}) => (
                     <div className={"row"}>
                         <div className={"col-5"}>
                             <div className={"widget__item"}>
-                                <div className={"logo"}>
+                                <div className={"about"}>
                                     <Link to="/" title={"About"}>
                                         <img alt={"Logo"} src={logo}/>
                                     </Link>
@@ -81,7 +81,7 @@ const Layout = ({children}) => (
                     </div>
 
                     <div className={"copyright"}>
-                        <p>Copyright {new Date().getFullYear()}, {` `} <a href="https://histaff.io" title={"HiStaff"}>HiStaff</a>. All rights reserved.</p>
+                        <p>Copyright {new Date().getFullYear()}, {` `} <a href="https://wecancodeit.org" title={"We Can Code IT"}>We Can Code IT</a>. All rights reserved.</p>
                     </div>
                 </div>
             </footer>

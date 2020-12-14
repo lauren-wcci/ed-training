@@ -14,7 +14,7 @@ const Header = ({siteTitle}) => (
                 </div>
 
                 <div className={"get-started"}>
-                    <a href={"https://app.histaff.io"}>Get Started</a>
+                    <a href={"https://edteam-training.netlify.com"}>Get Started</a>
                 </div>
             </div>
         </div>
