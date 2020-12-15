@@ -32,8 +32,8 @@ const IndexPage = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Create and Join Events</h2>
-                                <p>Save your time and energy by letting HiStaff to manage your events (handle the colleague’s birthday, gathering, etc.)</p>
+                                <h2>Inclusive Teaching Methods</h2>
+                                <p>The way we teach is a huge differentiator between the We Can Code IT learning experience and your standard school environment.</p>
                             </div>
                         </div>
                     </div>
@@ -43,8 +43,8 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Public Board</h2>
-                                <p>Let the staff write down on the board freely,<br/>Joking with each other and writing cool content can make the workplace more diverse and attractive for employees. </p>
+                                <h2>Teaching Tools</h2>
+                                <p>We teach our students using the same tools they will encounter in the real world. Plus, you will learn the We Can Code IT technology ecosystem.</p>
                             </div>
                         </div>
 
@@ -66,8 +66,8 @@ const IndexPage = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Internal News</h2>
-                                <p>Get rid of sending news by e-mail and its problems; post the news in an internal and attractive format via HiStaff instead.</p>
+                                <h2>Student-Facing Processes</h2>
+                                <p>We have clear processes all We Can Code IT educators should leverage to ensure a quality experience and consistent compliance status. </p>
                             </div>
                         </div>
                     </div>
@@ -77,31 +77,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Teams</h2>
-                                <p>HiStaff let you add staff in specific teams and manage them easily.</p>
+                                <h2>Cross-Team Collaboration</h2>
+                                <p>The Education team works collaboratively with other teams in the organization allowing for a seamless experience for students.</p>
                             </div>
                         </div>
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
                                 <img alt={"Team"} src={thumbnailTeams}/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className={"feature__item"}>
-                    <div className={"row"}>
-                        <div className={"col-6 first"}>
-                            <div className={"thumbnail"}>
-                                <img alt={"Users"} src={thumbnailStaff}/>
-                            </div>
-                        </div>
-
-                        <div className={"col-6"}>
-                            <div className={"feature__content"}>
-                                <h2>Staff management</h2>
-                                <p>Discard traditional ways to archive staff documents and information, and try new ways to store and archive them in HiStaff easily.</p>
                             </div>
                         </div>
                     </div>
