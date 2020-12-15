@@ -20,7 +20,7 @@ const IndexPage = () => (
                 <img alt={"Feature Image"} src={featureImage}/>
             </div>
             <div className={"get-started"}>
-                <a href="https://app.histaff.io" target={"_blank"}>Start Training</a>
+                <a href={"https://app.histaff.io"} target={"_blank"}>Start Training</a>
             </div>
             {/* <img alt={"Dashboard"} src={featureImage}/> */}
         </div>
